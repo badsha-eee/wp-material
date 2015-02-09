@@ -12,5 +12,7 @@
         }, function() {
             $(this).removeClass('open');
         });
+
+        $.material.init();
     });
 })(jQuery);

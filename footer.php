@@ -19,8 +19,7 @@
                 <div class="site-info">
                     <?php do_action( 'tp_credits' ); ?>
 
-                    &copy; 2008-<?php echo date( 'Y' ) ?> <a href="http://tareq.wedevs.com">Tareq Hasan</a>. All rights are reserved.
-                    Powered by <a href="http://wordpress.org/" target="_blank" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'wedevs' ); ?>" rel="generator"><?php printf( __( '%s', 'wedevs' ), 'WordPress' ); ?></a>.
+                    <p>This theme is made by mixing <a href="http://tareq.wedevs.com">Tareq Hasan</a>'s <a href="https://github.com/tareq1988/_bootstraps">_bootstraps</a> and <a href="https://github.com/FezVrasta">Fez Vrasta</a>'s <a href="https://github.com/FezVrasta/bootstrap-material-design">bootstrap-material-design</a>.</p>
 
                     <?php echo wedevs_get_option( 'footer_text', 'tp_settings' ); ?>
                 </div><!-- .site-info -->

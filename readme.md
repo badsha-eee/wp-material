@@ -1,16 +1,18 @@
 # Another Starter Theme
 Yes, another WordPress starter theme, based on another starter theme, oh yeah!!!
+And I added some styling to make it more attractive.
 
 ## Why?
-I've built countless times the same thing when creating a theme. I don't want to do this anymore.
+I like experiment with things. I checked mixing [Material Design](http://google.com/design) with bootstrap and here it is.
 
 ## What it offeres
 Nothing special that much:
 
 * Based on [_s](https://github.com/Automattic/_s)
 * Based on [bootstrap](http://twitter.github.com/bootstrap/)
-* A simple theme options panel, based on my [Settings API class](https://github.com/tareq1988/wordpress-settings-api-class)
-* Two column (content - *span8*, sidebar - *span4*)
+* Based on [_bootstraps](https://github.com/tareq1988/_bootstraps)
+* A simple theme options panel, based on @Tareq1988 [Settings API class](https://github.com/tareq1988/wordpress-settings-api-class)
+* Two column (content - *col-md-8*, sidebar - *col-md-4*)
 * One navigation menu. Yes, it's styled, you don't have to write css for this fracking menubar again.
 * Pagination
 * LESS CSS
@@ -18,4 +20,4 @@ Nothing special that much:
 * Responsive
 
 ## Screenshot
-![screenshot](http://f.cl.ly/items/3d3I3X3t3X3j36192L3Q/_bootstraps.png)
+![screenshot](http://s29.postimg.org/n8zsh0lif/Bootstrap_Material_theme_for_Word_Press.png)

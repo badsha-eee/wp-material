@@ -92,10 +92,14 @@ class WeDevs_Bootstrap {
         wp_enqueue_style( 'bootstrap', $template_directory . '/css/bootstrap.css' );
         wp_enqueue_style( 'font-awesome', $template_directory . '/css/font-awesome.css' );
         wp_enqueue_style( 'style', $template_directory . '/css/style.css' );
+        wp_enqueue_style('material', $template_directory . '/css/material-wfont.css' );
+        wp_enqueue_style('ripples', $template_directory . '/css/ripples.css' );
 
         // all scripts
         // wp_enqueue_script( 'small-menu', $template_directory . '/js/small-menu.js', array('jquery'), '20120206', true );
         wp_enqueue_script( 'bootstrap', $template_directory . '/js/bootstrap.min.js', array('jquery'), '20120206', true );
+        wp_enqueue_script('ripples', $template_directory . '/js/ripples.js' );
+        wp_enqueue_script('material', $template_directory . '/js/material.js' );
 
         // comment reply on single posts
         if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
